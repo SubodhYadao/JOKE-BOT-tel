@@ -4,8 +4,8 @@ const axios = require('axios');
 
 
 dotenv.config();
-
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
+const TOKEN = process.env.BOT_TOKEN;
+const bot = new TelegramBot(TOKEN, { polling: true });
 
 // bot.on('message', (option) => {
 //     console.log("Message received on the bot", option);
