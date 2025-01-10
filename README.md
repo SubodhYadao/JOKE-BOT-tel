@@ -1,4 +1,4 @@
 ## Screenshots
 
-### Home Page:
+### Chat With Bot:
 ![Chat With Bot](S.png)
